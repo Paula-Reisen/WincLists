@@ -45,7 +45,16 @@ footer{
     font-weight: bold;
 }
 .block{
-    display: inline-block;
+    display: inline;
+    margin-top: 2px;
+    padding-top: 2px;
+    box-sizing: border-box;
+    color: darkgreen;
+    font-size: 16px;
+    text-align: center;
+}
+.block li{
+    display: inline;
     margin-top: 2px;
     padding-top: 2px;
     box-sizing: border-box;
