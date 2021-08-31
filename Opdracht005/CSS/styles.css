@@ -1,0 +1,87 @@
+body{
+    margin: 20px 10px;
+    color: darkolivegreen;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px; 
+}
+header, main{
+    border: 2px solid orange;
+    width: 100%;
+    text-align: justify;
+}
+.title{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+.headers{
+    color: darkgreen;
+    margin: 0 auto;
+}
+footer{
+    color: darkolivegreen;
+}
+.black-border{
+    border: 2px solid orange;
+    width: 100%;    
+}
+#green-background{
+    background-color: green;
+    margin: 0 auto;
+}
+.h4{
+    color: darkolivegreen;
+    font-weight: bold;
+}
+.block{
+    display: inline-block;
+    margin-top: 2px;
+    padding-top: 2px;
+    box-sizing: border-box;
+    color: darkgreen;
+    font-size: 16px;
+    text-align: center;
+}
+.block_extern {
+    display: inline-block;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    box-sizing: border-box;
+    color: darkgreen;
+    font-size: 16px;
+    
+}
+.block_extern p{
+    margin-bottom: 2px;
+}
+nav a li{
+    margin: 0 auto;
+    padding: 2px;
+    text-align: justify;
+}
+
+a, p{
+    color: darkolivegreen;
+    font-size: 12px;
+    text-align: justify;
+    margin: 0 auto;
+    padding: 5px;
+    
+}
+a{
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 5px
+}
+img{
+    padding: 2px;
+    margin: 0 auto;
+    width: 25%;
+    height: 25%;
+}
