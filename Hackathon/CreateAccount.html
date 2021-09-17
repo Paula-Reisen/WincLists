@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+    <img class="img-logo" src="Logo lijster.png">
+    <div class="header-nav-lists">Lijster: Lijstjes website voor iedereen!</div>
+</header>
+
+<body>
+    <main>
+        <form name="Chef" method="POST" data-netifly="true">
+            <div>
+                <label class="Labelsform">Naam</label>
+                <div class="controls">
+                    <input type="text" name="name">
+                </div>
+            </div>
+            <div>
+                <label class="Labelsform">E-Mail</label>
+                <div class="controls">
+                    <input type="email" name="email">
+                </div>
+            </div>
+            <div>
+                <label class="Labelsform">Telefoonnummer</label>
+                <div class="controls telnumber">
+                    <input type="number" name="telnummer">
+                </div>
+            </div>
+            <div>
+                <label class="Labelsform">Geboortedatum</label>
+                <div class="controls telnumber">
+                    <input type="date" name="birthdate">
+                </div>
+            </div>
+            <div>
+                <label class="Labelsform">Gender</label>
+                <div class="controls">
+                    <input type="radio" name="Gender" value="Vrouw">
+                    <label for="html">Vrouw</label><br>
+                    <input type="radio" name="Gender" value="Man">
+                    <label for="Man">Man</label>
+                </div>
+            </div>
+            <div>
+                <label class="Labelsform">Favoriete Cuisine</label>
+                <div class="controls">
+                    <label>frans<input type="checkbox" name="Favoriete Cuisine"></label>
+                    <label>spaans<input type="checkbox" name="Favoriete Cuisine"></label>
+                    <label>italiaans<input type="checkbox" name="Favoriete Cuisine"></label>
+                    <label>arabisch<input type="checkbox" name="Favoriete Cuisine"></label>
+                </div>
+            </div>
+            <div>
+                <label class="Labelsform">Favoriete Schortkleur</label>
+                <div class="Colorselection">
+                    <input type="color" name="Schort">
+                </div>
+            </div>
+            <label class="Labelsform">Biografie</label><br>
+            <div class="controls">
+                <textarea name="Biografie"></textarea><br>
+            </div>
+            <div>
+                <label class="Labelsform">Upload een file:</label>
+                <div class="controls">
+                    <input type="file" name="UploadFile">
+                </div>
+            </div>
+            <div>
+                <label class="Labelsform">URL Recepten:</label>
+                <div class="controls">
+                    <input type="url" name="Url">
+                </div>
+            </div>
+            <div class="Labelsform">
+                <input type="reset" name="reset" value="Vernieuwen">
+                <input type="submit" name="send" value="Verstuur">
+            </div>
+
+        </form>
+    </main>
+</body>
+<footer class="black-border">
+    <div class="block">
+        <a href="Index.html" class="about-me">Terug naar homepage</a>
+    </div>
+</footer>
+
+</html>
