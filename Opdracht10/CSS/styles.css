@@ -1,0 +1,410 @@
+
+*{
+    background-color: #2F6A01;
+}
+
+/* styling Mobile */
+@media screen and (min-width: 320px){
+    .header-nav-lists{
+    color: black;
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 13px;
+    box-sizing: border-box;
+    }
+    .img-logo{
+        height: 33px;
+        width: 29px;
+        display: inline-block;
+        box-sizing: border-box;
+    }
+    .menu-block-header{
+        display: inline-block;
+        box-sizing: border-box;
+        background-color: #9ACD32; 
+        text-align: right;
+        width: 100%;
+        
+    }
+    .menu-block-header menu{
+        text-align: right;
+        box-sizing: border-box;
+        display: inline-block;
+        margin: 0px;
+        padding: 0px;
+        border-bottom: 2px solid black;
+    }
+    .menu-block-header ul li{
+        color: black;
+    }
+    .body{
+        color: white;
+        text-align: left;
+    }
+    body{
+    margin: 20px 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px; 
+}
+    .header-about{
+        border-bottom: 2px solid black;
+    }
+    main{
+        text-align: left;
+        line-height: 0.8em;
+        border-bottom: 2px solid black;
+        border-top: 2px solid black;
+    }
+    .headers{
+        font-size: 1em;
+        text-align: left;
+        color:white;
+        line-height: 1em;
+    }
+    .black-border{
+        border-top: 2px thin black;
+        border-bottom: 2px thin black;
+    }
+    .title{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+.block{
+    display: inline-block;
+    margin-top: 2px;
+    padding-top: 2px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 16px;
+}
+.block li{
+    display: inline-block;
+    margin-top: 2px;
+    padding-top: 2px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+a, p{
+    color: white;
+    font-size: 12px;
+    text-align: justify;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+a{
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 5px
+}
+.block_extern {
+    display: inline-block;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 16px;
+    
+}
+.textName{
+    color:white;
+    font-weight: bold;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 5px 10px;
+}
+.emailBox{
+    color:white;
+    font-weight: bold;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 5px 10px;
+}
+label{
+    color:white;
+    font-weight: bold;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 5px 10px;
+}
+.controls > input[type='text'], .controls > textarea, .controls > input[type='email']{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    color: white;
+        height: 3rem;
+        margin:5px;
+        border-radius: 4px;
+        border: 2px solid black;
+}
+.controls > input[type='submit']{
+    display: inline-block;
+    box-sizing: border-box;
+    font-weight: bold;
+        margin:10px;
+        border-radius: 4px;
+        border: 2px solid black;
+}
+.controls > input[type='color'], .controls > input[type='number'], .controls > input[type='date'], .controls > input[type='radio'], .controls > input[type='file'], .controls > input[type='url']
+{
+    color: white;
+    margin: 5px;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+.telnumber{
+    margin-left: 5px;
+}
+.Labelsform{
+    color:black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.Colorselection > input[type='color']{
+    margin: 10px;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+input[type="reset"]{
+    color: black;
+    Font-weight: bold;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+input[type="submit"]{
+    color: black;
+    Font-weight: bold;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+}
+
+/* styling desktop */
+@media screen and (min-width: 1024px){
+.img-logo{
+    width: 43px;
+    height: 39px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.header-nav-lists{
+    color: black;
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 20px;
+    box-sizing: border-box;
+    }
+.Text{
+    margin-bottom: 10px;
+}
+.menu-block-header{
+        display: inline-block;
+        box-sizing: border-box;
+        background-color: #9ACD32; 
+        text-align: left;
+        margin-left: 0px;
+        
+border: 2px solid black;
+    }
+.menu-block-header menu{
+        text-align: left;
+        box-sizing: border-box;
+        display: inline-block;
+        padding: 0px;
+        margin-left: 0px;
+border: 2px thin black;
+
+    }
+    .menulist
+
+.menublock{
+    
+    width: 107;
+    height: 26;
+    
+}
+.centerheader{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+.title{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+.headers{
+    color: white;
+    margin: 0 auto;
+}
+footer{
+    color: white;
+}
+.black-border{
+        border-top: 2px thin black;
+        border-bottom: 2px thin black;
+    }
+.h4{
+    color: white;
+    font-weight: bold;
+}
+.block{
+    display: inline-block;
+    margin-top: 2px;
+    padding-top: 2px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 16px;
+}
+.block li{
+    display: inline;
+    margin-top: 2px;
+    padding-top: 2px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+.block_extern {
+    display: inline-block;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 16px;
+    
+}
+.block_extern p{
+    margin-bottom: 2px;
+}
+nav a li{
+    margin: 0 auto;
+    padding: 2px;
+    text-align: justify;
+}
+
+a, p{
+    color: white;
+    font-size: 12px;
+    text-align: justify;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    
+}
+a{
+    font-weight: bold;
+    padding: 5px
+}
+label{
+    color:white;
+    font-weight: bold;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 5px 10px;
+}
+.controls > input[type='text'], .controls > textarea, .controls > input[type='email']{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+        height: 3rem;
+        margin:10px;
+        border-radius: 4px;
+        border: 2px solid black;
+}
+.controls > input[type='submit']{
+    display: inline-block;
+    box-sizing: border-box;
+    font-weight: bold;
+        margin:10px;
+        border-radius: 4px;
+        border: 2px solid black;
+}
+.controls > input[type='number'], .controls > input[type='date'], .controls > input[type='radio'], .controls > input[type='file'], .controls > input[type='url']
+{
+    color: white;
+    margin: 5px;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+.telnumber{
+    margin-left: 5px;
+}
+.Labelsform{
+    color:black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.Colorselection > input[type='color']{
+    margin: 10px;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+input[type="reset"]{
+    color: black;
+    Font-weight: bold;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 10px;
+}
+input[type="submit"]{
+    color: black;
+    Font-weight: bold;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 10px
+}
+}
+.menu-block-header:hover .menu-block-header:focus {
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  
+border: 2px solid black;
+}
+.dropdown {
+    color: black;
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+text-decoration: none;
+}
+.menu-block-header:hover .dropdown-content 
+{
+display: block;
+text-decoration: none;
+
+  border-radius: 4px;
+}
+
+li.no-bullets{
+    list-style-type: none;
+}

@@ -1,0 +1,540 @@
+*{
+    background: #2F6A01;
+}
+.MainArticle{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 50%;
+    height: 50%;
+    color:white;
+    font-size: 10pt;
+    padding: 0px;
+    margin-left: 180px;
+    text-align: justify;
+}
+ .menu-block-header ul li{
+        color: black;
+    }
+.title{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+/*Mobile first */
+@media screen and (max-width: 767px){
+    /*header*/
+    .img-logo{
+        height: 33px;
+        width: 29px;
+        display: inline-block;
+        box-sizing: border-box;
+    }
+     .gridheader{
+    color: black;
+    font-size: 12px;
+    text-align: left;
+    display: block;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+.menu-block-header{
+    color:black;
+        display: block;
+        box-sizing: border-box; 
+        text-align: right;
+        margin-left: 0px;
+        padding-top: 0px;
+        border-radius: 4px;
+border: 2px solid black;
+}
+button{
+    height: 100%;
+    margin: 0px;
+    border:0px;
+    border-right: 2px solid black;
+  
+  text-align: right;
+}
+.dropdown {
+    color: black;
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  margin: 0px;
+  height: 100%;
+  padding:0px;
+  text-align: right;
+  margin-right: 50px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  text-align: right;
+  min-width: 140px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-top:5px;
+  margin-left: 250px;
+  border:2px solid black;
+  padding: 0px;
+  
+}
+.dropdown-content a:hover {
+text-decoration: none;
+padding: 0px;
+margin-top: 5px;
+
+}
+.menu-block-header:hover .dropdown-content 
+{
+display: block;
+text-decoration: none;
+}
+.menu-block-header:hover .menu-block-header:focus {background-color: #3e8e41;}
+
+li.no-bullets{
+    list-style-type: none;
+}
+    /*main*/
+    a, p{
+    color: white;
+    font-size: 12px;
+    text-align: justify;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    }
+     .Info-Website{
+        color: white;
+        font-size: 15px;
+        margin-top: 10px;
+        text-align: left;
+        border-top:2px solid black;
+        padding-top: 10px;
+        display: block;
+        box-sizing: border-box;
+    }
+    .MainArticle{
+        margin-left: 0px;
+    }
+    .Info-Website li{
+        font-size: 10px;
+        margin-left: 10px
+    }
+    .Info-Website a{
+        text-decoration: underline;
+    }
+hr{
+    border-top:2px solid black
+}
+a{
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 5px
+}
+    /*footer*/
+.block{
+    display: inline-block;
+    margin-top: 2px;
+    padding-top: 2px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 16px;
+
+
+}
+
+.block_extern {
+    display: inline-block;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 16px;
+    
+}
+/*form*/
+.textName{
+    color:white;
+    font-weight: bold;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 5px 10px;
+}
+.emailBox{
+    color:white;
+    font-weight: bold;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 5px 10px;
+}
+label{
+    color:white;
+    font-weight: bold;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 5px 10px;
+}
+.controls > input[type='text'], .controls > textarea, .controls > input[type='email']{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    color: white;
+        height: 3rem;
+        margin:5px;
+        border-radius: 4px;
+        border: 2px solid black;
+}
+.controls > input[type='submit']{
+    display: inline-block;
+    box-sizing: border-box;
+    font-weight: bold;
+        margin:10px;
+        border-radius: 4px;
+        border: 2px solid black;
+}
+.controls > input[type='color'], .controls > input[type='number'], .controls > input[type='date'], .controls > input[type='radio'], .controls > input[type='file'], .controls > input[type='url']
+{
+    color: white;
+    margin: 5px;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+.telnumber{
+    margin-left: 5px;
+}
+.Labelsform{
+    color:black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.Colorselection > input[type='color']{
+    margin: 10px;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+input[type="reset"]{
+    color: black;
+    Font-weight: bold;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+input[type="submit"]{
+    color: black;
+    Font-weight: bold;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+}
+/* Tablet */
+ 
+@media screen and (min-width: 768px) {
+    /*header*/
+    .img-logo{
+        height: 43px;
+        width: 39px;
+        display: inline-block;
+        box-sizing: border-box;
+    }
+     .gridheader{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    box-sizing: border-box;
+    border-bottom: 2px solid black;
+    font-weight: bold;
+}
+.menu-block-header{
+        display: block;
+        box-sizing: border-box; 
+        text-align: left;
+        margin-left: 0px;
+        padding-top: 0px;
+border: 2px solid black;
+}
+button{
+    height: 100%;
+    margin: 0px;
+    border:0px;
+    border-right: 2px solid black;
+  
+  text-align: right;
+}
+.dropdown-content{
+    margin-top: 10px;
+    border: solid black;
+    text-align: left;
+}
+
+.dropdown-content a{
+    display: inline-block;
+box-sizing: border-box;
+ Text-decoration: none;
+}
+.menu-block-header .dropdown-content 
+{
+display: inline-block;
+box-sizing: border-box;
+text-decoration: none;
+}
+menu {
+    text-align: right;
+}
+.dropdown {
+  position: relative;
+  display: block;
+  margin: 0px;
+  height: 100%;
+  padding:0px;
+  text-align: left;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a:hover {
+text-decoration: none;
+}
+li.no-bullets{
+    list-style-type: none;
+}
+    /*main*/
+    a, p{
+    color: white;
+    font-size: 12px;
+    text-align: justify;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    
+}
+a{
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 5px
+}
+ .Info-Website{
+        color: white;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-left: 180px;
+        text-align: left;
+        border-top:2px solid black;
+        padding-top: 10px;
+    }
+    .MainArticle{
+        margin-left: 180px;
+    }
+    .Info-Website li{
+        font-size: 10px;
+    }
+    .Info-Website a{
+        text-decoration: underline;
+    }
+hr{
+    border-top:2px solid black
+}
+    /*footer*/
+.block{
+    display: inline-block;
+    margin-top: 2px;
+    padding-top: 2px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 16px;
+
+
+}
+
+.block_extern {
+    display: inline-block;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 16px;
+    
+}
+/*form*/
+.textName{
+    color:white;
+    font-weight: bold;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 5px 10px;
+}
+.emailBox{
+    color:white;
+    font-weight: bold;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 5px 10px;
+}
+label{
+    color:white;
+    font-weight: bold;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 5px 10px;
+}
+.controls > input[type='text'], .controls > textarea, .controls > input[type='email']{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    color: white;
+        height: 3rem;
+        margin:5px;
+        border-radius: 4px;
+        border: 2px solid black;
+}
+.controls > input[type='submit']{
+    display: inline-block;
+    box-sizing: border-box;
+    font-weight: bold;
+        margin:10px;
+        border-radius: 4px;
+        border: 2px solid black;
+}
+.controls > input[type='color'], .controls > input[type='number'], .controls > input[type='date'], .controls > input[type='radio'], .controls > input[type='file'], .controls > input[type='url']
+{
+    color: white;
+    margin: 5px;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+.telnumber{
+    margin-left: 5px;
+}
+.Labelsform{
+    color:black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.Colorselection > input[type='color']{
+    margin: 10px;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+input[type="reset"]{
+    color: black;
+    Font-weight: bold;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+input[type="submit"]{
+    color: black;
+    Font-weight: bold;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+}
+/* Desktop */
+
+@media screen and (min-width: 1024px){
+     /*header*/
+        .img-logo{
+    width: 53px;
+    height: 49px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.gridheader{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    width: 90%;
+    text-align: center;
+    display: block;
+    box-sizing: border-box;
+    border-bottom: 2px solid black;
+}
+.menu-block-header{
+        display: block;
+        box-sizing: border-box; 
+        text-align: left;
+        margin-left: 0px;
+        padding-top: 0px;
+        
+border: 2px solid black;
+}
+button{
+    height: 100%;
+    margin: 0px;
+    border:0px;
+    border-right: 2px solid black;
+    text-align: center;
+}
+.dropdown{
+    height: 100%;
+    margin: 0px;
+    border:0px;
+    border-right: 2px solid black;
+    text-align: left;
+}
+.dropdown-content{
+    margin-top: 10px;
+    border: solid black;
+    text-align: left;
+}
+
+.dropdown-content a{
+    display: inline-block;
+box-sizing: border-box;
+ Text-decoration: none;
+}
+.menu-block-header .dropdown-content 
+{
+display: inline-block;
+box-sizing: border-box;
+text-decoration: none;
+}
+
+    /*main*/
+    .Info-Website{
+        color: white;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-left: 180px;
+        text-align: left;
+        border-top:2px solid black;
+        padding-top: 10px;
+    }
+    .MainArticle{
+        margin-left: 180px;
+    }
+    .Info-Website li{
+        font-size: 10px;
+    }
+    .Info-Website a{
+        text-decoration: underline;
+    }
+hr{
+    border-top:2px solid black
+}
+    /*footer*/
+/*Form*/
+a{
+    font-weight: bold;
+    padding: 5px
+}
+input[type="reset"]{
+    margin: 10px;
+}
+input[type="submit"]{
+    margin: 10px
+}
+}
