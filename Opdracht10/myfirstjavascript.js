@@ -7,7 +7,8 @@ let multiplyNumber = number * 3;
 let substractNumber = number - 9;
 let divisionNumber = number / 2;
 let modulusNumber = number % 4;
-let age = 31 + 'jaar';
+let age = 31;
+let ageasstring = '31';
 
 console.log(firstName);
 console.log(number);
@@ -18,3 +19,4 @@ console.log(substractNumber);
 console.log(divisionNumber);
 console.log(modulusNumber);
 console.log(typeof (age))
+console.log(typeof (ageasstring))
