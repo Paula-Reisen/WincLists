@@ -31,10 +31,10 @@ if (firstName === 'Sarah' || firstName === 'Bram') {
 }
 
 //Checking amount 25, 50 or 100 for a free gift.
-if (totalAmount === 25) {
+if (totalAmount > 25) {
     console.log('you will get a plate of bitterballen');
-} else if (totalAmount === 50) {
+} else if (totalAmount > 50) {
     console.log('You will get a portion of nachos');
-} else if (totalAmount === 100) {
+} else if (totalAmount >= 100) {
     console.log('You will get a free bottle of champagne');
 }
