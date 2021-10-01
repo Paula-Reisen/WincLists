@@ -17,7 +17,7 @@ const makingPizza = function () {
     console.log('Baking the pizza')
 };
 makingPizza();
-const addAnotherPizza = makingPizza;
+const addAnotherPizza = makingPizza;    
 addAnotherPizza();
 
 
