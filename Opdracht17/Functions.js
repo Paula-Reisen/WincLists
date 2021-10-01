@@ -22,7 +22,7 @@ const enterClub = function (maxPeople, currentNumber, ageCustomer) {
     }
     else {
         return console.log('Come in!');
-    }  
+    }
 };
 
 const maxPeople = 150;
@@ -37,7 +37,8 @@ const calculateAverage = function (firstNumber, SecondNumber, thirdNumber, fourt
 
     const total = firstNumber + SecondNumber + thirdNumber + fourthNumber + fifthNumber;
     const average = total / 5;
-    return average;
+    const averageRounded = Math.round(average);
+    return averageRounded;
 };
 
 const firstNumber = 300;
