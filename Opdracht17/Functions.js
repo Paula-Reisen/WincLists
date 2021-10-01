@@ -34,7 +34,10 @@ enterClub(maxPeople, currentNumber, ageCustomer);
 // Calculating the average
 
 const calculateAverage = function (firstNumber, SecondNumber, thirdNumber, fourthNumber, fifthNumber) {
-    return Math.round(firstNumber, SecondNumber, fourthNumber, thirdNumber, fifthNumber);
+
+    const total = firstNumber + SecondNumber + thirdNumber + fourthNumber + fifthNumber;
+    const average = total / 5;
+    return average;
 };
 
 const firstNumber = 300;
