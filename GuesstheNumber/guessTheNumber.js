@@ -8,13 +8,13 @@ var GuessTheNumber = function (InputNumber) {
     for (var i = 1; i < 5; i++) {
         var CorrectGuess = GetRandomInteger(min, max);
         if (InputNumber == CorrectGuess) {
-            console.log('Gefeliciteerd je hebt gewonnen');
+            alert('Gefeliciteerd je hebt gewonnen');
         } else {
-            console.log('Dat is niet correct. Graag opnieuw proberen.');
+            alert('Dat is niet correct. Graag opnieuw proberen.');
             InputNumber = (parseInt(prompt('Wat is je nieuwe gok?')));
         }
     }
-    console.log('Dag' + Name + 'tot de volgende keer!');
+    alert('Dag' + Name + 'tot de volgende keer!');
 }
 
 
