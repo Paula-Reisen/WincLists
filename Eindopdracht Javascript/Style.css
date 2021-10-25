@@ -1,0 +1,29 @@
+
+.menu-orange{
+    background-color: orange;
+}
+.menu-red{
+    background-color: red;
+}
+.menu-blue{
+    background-color: blue;
+}
+.menu-purple{
+    background-color: purple;
+}
+.img{
+    height: 33px;
+        width: 29px;
+        display: inline-block;
+        box-sizing: border-box;
+}
+ul { 
+    display : none; /*To hide the items while loading the page */  
+}
+.ul-active{
+    display: block;
+}
+li{
+    list-style-type: none;
+    border-style: solid;
+}
